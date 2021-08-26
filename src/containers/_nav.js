@@ -29,6 +29,12 @@ const _nav =  [
     icon: 'cil-pencil',
   },
   {
+    _tag: 'CSidebarNavItem',
+    name: 'Introduction',
+    to: '/theme/java',
+    icon: 'cil-pencil',
+  },
+  {
     _tag: 'CSidebarNavTitle',
     _children: ['Components']
   },
@@ -306,7 +312,633 @@ const _nav =  [
   {
     _tag: 'CSidebarNavDivider',
     className: 'm-2'
-  }
+  },
+
+
+
+  // din start
+  // LANGUAGE
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['LANGUAGE']
+  },
+  // FOR Java
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'JAVA',
+    route: '/java',
+    icon: 'cil-puzzle',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Introduction',     //any name can here...
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page2',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page3',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page4',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page5',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page6',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page7',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page8',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page9',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page10',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page11',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page12',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page13',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page14',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page15',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page16',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page17',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page18',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page19',     
+        to: '/theme/java',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page20',     
+        to: '/theme/java',
+      }
+    ]
+  },
+
+  //for php
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'PHP',
+    route: '/php',
+    icon: 'cil-puzzle',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Introduction',     //any name can here...
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page2',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page3',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page4',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page5',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page6',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page7',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page8',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page9',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page10',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page11',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page12',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page13',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page14',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page15',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page16',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page17',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page18',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page19',     
+        to: '/theme/php',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page20',     
+        to: '/theme/php',
+      }
+    ]
+  },
+
+
+  //for python
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'PYTHON',
+    route: '/python',
+    icon: 'cil-puzzle',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Introduction',     //any name can here...
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page2',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page3',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page4',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page5',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page6',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page7',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page8',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page9',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page10',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page11',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page12',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page13',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page14',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page15',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page16',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page17',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page18',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page19',     
+        to: '/theme/python',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page20',     
+        to: '/theme/python',
+      }
+    ]
+  },
+
+
+  //for adroid
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'ANDROID',
+    route: '/android',
+    icon: 'cil-puzzle',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Introduction',     //any name can here...
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page2',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page3',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page4',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page5',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page6',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page7',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page8',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page9',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page10',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page11',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page12',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page13',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page14',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page15',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page16',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page17',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page18',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page19',     
+        to: '/theme/android',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page20',     
+        to: '/theme/android',
+      }
+    ]
+  },
+
+  //for cc++
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'C_CPLUS',
+    route: '/cc++',
+    icon: 'cil-puzzle',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Introduction',     //any name can here...
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page2',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page3',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page4',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page5',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page6',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page7',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page8',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page9',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page10',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page11',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page12',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page13',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page14',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page15',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page16',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page17',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page18',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page19',     
+        to: '/theme/cc++',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Page20',     
+        to: '/theme/cc++',
+      }
+    ]
+  },
+
+
+
+
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['DATABASE']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['SCRIPT & UI']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['LINUX ALL']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['VCS']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['FRAMEWORK']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['DS_ALGO']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['AWS_DEVOPS']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['REPORTING']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['WEB SERVER']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['UNIT TESTING']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['DOMAIN_HOSTING']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['BUILD TOOLS']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['MISC']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['ENGLISH']
+  },
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['ISLAMIC']
+  },
+
+
 ]
 
 export default _nav

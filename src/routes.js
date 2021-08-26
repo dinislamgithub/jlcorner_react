@@ -37,6 +37,14 @@ const Typography = React.lazy(() => import('./views/theme/typography/Typography'
 const Widgets = React.lazy(() => import('./views/widgets/Widgets'));
 const Users = React.lazy(() => import('./views/users/Users'));
 const User = React.lazy(() => import('./views/users/User'));
+// din start
+const JavaIntroduction = React.lazy(() => import('./views/theme/java/JavaIntroduction'));
+const PhpIntroduction = React.lazy(() => import('./views/theme/php/PhpIntroduction'));
+const PythonIntroduction = React.lazy(() => import('./views/theme/python/PythonIntroduction'));
+const AndroidIntroduction = React.lazy(() => import('./views/theme/android/AndroidIntroduction'));
+const CCplusIntroduction = React.lazy(() => import('./views/theme/cc++/CCplusIntroduction'));
+
+
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -78,7 +86,15 @@ const routes = [
   { path: '/notifications/toaster', name: 'Toaster', component: Toaster },
   { path: '/widgets', name: 'Widgets', component: Widgets },
   { path: '/users', exact: true,  name: 'Users', component: Users },
-  { path: '/users/:id', exact: true, name: 'User Details', component: User }
+  { path: '/users/:id', exact: true, name: 'User Details', component: User },
+
+  // din start
+  { path: '/theme/java', name: 'JavaIntroduction', component: JavaIntroduction },
+  { path: '/theme/php', name: 'PhpIntroduction', component: PhpIntroduction },
+  { path: '/theme/python', name: 'PythonIntroduction', component: PythonIntroduction },
+  { path: '/theme/android', name: 'AndroidIntroduction', component: AndroidIntroduction },
+  { path: '/theme/cc++', name: 'CCplusIntroduction', component: CCplusIntroduction },
+
 ];
 
 export default routes;

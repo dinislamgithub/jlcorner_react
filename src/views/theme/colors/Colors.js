@@ -59,7 +59,7 @@ const Colors = () => {
         <CCardBody>
           <CRow>
             <ThemeColor className="bg-primary">
-              <h6>Brand Primary Color</h6>
+              <h6>Brand Primary Color Din</h6>
             </ThemeColor>
             <ThemeColor className="bg-secondary">
               <h6>Brand Secondary Color</h6>
