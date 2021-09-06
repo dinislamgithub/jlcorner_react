@@ -1,70 +1,60 @@
-import React from 'react'
+import React, { useState } from 'react' 
 import {
+  CCol,
+  CNav,
+  CNavItem,
+  CNavLink,
+  CRow,
+  CTabContent,
+  CTabPane,
   CCard,
-  CCardHeader,
-  CCardBody
+  CCardBody,
+  CTabs,
+  CCardHeader
 } from '@coreui/react'
 import { DocsLink } from 'src/reusable'
+import CIcon from '@coreui/icons-react' 
 
 const CCplusIntroduction = () => {
+  const [active, setActive] = useState(1)
+  const lorem = 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.'
+
   return (
     <>
-      <CCard>
-        <CCardHeader>
-          Headings
-          <DocsLink href="https://coreui.io/docs/content/typography/"/>
-        </CCardHeader>
-        <CCardBody>
-          <p>CC++ Inroduction... </p>
-          <table className="table">
-            <thead>
-            <tr>
-              <th>Heading</th>
-              <th>Example</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>
-                <p><code className="highlighter-rouge">&lt;h1&gt;&lt;/h1&gt;</code></p>
-              </td>
-              <td><span className="h1">h1. Bootstrap heading</span></td>
-            </tr>
+    <CRow>
+    <CCol xs="12" md="12" className="mb-12">
+    <CTabs>
+            <CNav variant="tabs">
+              <CNavItem><CNavLink>Home</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu1</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu2</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu3</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu4</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu5</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu6</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu7</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu8</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu9</CNavLink></CNavItem>
+              <CNavItem><CNavLink>Menu10</CNavLink></CNavItem>
+            </CNav>
 
-            <tr>
-              <td>
-                <p><code className="highlighter-rouge">&lt;h2&gt;&lt;/h2&gt;</code></p>
-              </td>
-              <td><span className="h2">h2. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p><code className="highlighter-rouge">&lt;h3&gt;&lt;/h3&gt;</code></p>
-              </td>
-              <td><span className="h3">h3. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p><code className="highlighter-rouge">&lt;h4&gt;&lt;/h4&gt;</code></p>
-              </td>
-              <td><span className="h4">h4. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p><code className="highlighter-rouge">&lt;h5&gt;&lt;/h5&gt;</code></p>
-              </td>
-              <td><span className="h5">h5. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p><code className="highlighter-rouge">&lt;h6&gt;&lt;/h6&gt;</code></p>
-              </td>
-              <td><span className="h6">h6. Bootstrap heading</span></td>
-            </tr>
-            </tbody>
-          </table>
-        </CCardBody>
-      </CCard>      
+            <CTabContent>
+              <CTabPane>{`Home. ${lorem}`}</CTabPane>
+              <CTabPane>{`1. ${lorem}`}</CTabPane>
+              <CTabPane>{`2. ${lorem}`}</CTabPane>
+              <CTabPane>{`3. ${lorem}`}</CTabPane>
+              <CTabPane>{`4. ${lorem}`}</CTabPane>
+              <CTabPane>{`5. ${lorem}`}</CTabPane>
+              <CTabPane>{`6. ${lorem}`}</CTabPane>
+              <CTabPane>{`7. ${lorem}`}</CTabPane>
+              <CTabPane>{`8. ${lorem}`}</CTabPane>
+              <CTabPane>{`9. ${lorem}`}</CTabPane>
+              <CTabPane>{`10. ${lorem}`}</CTabPane> 
+            </CTabContent>
+          </CTabs>
+          
+    </CCol>
+  </CRow>    
     </>
   )
 }

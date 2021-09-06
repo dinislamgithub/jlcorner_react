@@ -15,7 +15,7 @@ import {
 import { DocsLink } from 'src/reusable'
 import CIcon from '@coreui/icons-react' 
 
-const PythonIntroduction = () => {
+const PhpIntroduction = () => {
   const [active, setActive] = useState(1)
   const lorem = 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.'
 
@@ -59,4 +59,4 @@ const PythonIntroduction = () => {
   )
 }
 
-export default PythonIntroduction
+export default PhpIntroduction

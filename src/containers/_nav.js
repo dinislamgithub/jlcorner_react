@@ -331,103 +331,103 @@ const _nav =  [
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'Introduction',     //any name can here...
-        to: '/theme/java',
+        name: 'JavaIntroduction',     //any name can here...
+        to: '/theme/java/javaintroduction',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page2',     
-        to: '/theme/java',
+        to: '/theme/java/javapage2',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page3',     
-        to: '/theme/java',
+        to: '/theme/java/javapage3',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page4',     
-        to: '/theme/java',
+        to: '/theme/java/javapage4',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page5',     
-        to: '/theme/java',
+        to: '/theme/java/javapage5',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page6',     
-        to: '/theme/java',
+        to: '/theme/java/javapage6',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page7',     
-        to: '/theme/java',
+        to: '/theme/java/javapage7',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page8',     
-        to: '/theme/java',
+        to: '/theme/java/javapage8',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page9',     
-        to: '/theme/java',
+        to: '/theme/java/javapage9',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page10',     
-        to: '/theme/java',
+        to: '/theme/java/javapage10',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page11',     
-        to: '/theme/java',
+        to: '/theme/java/javapage11',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page12',     
-        to: '/theme/java',
+        to: '/theme/java/javapage12',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page13',     
-        to: '/theme/java',
+        to: '/theme/java/javapage13',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page14',     
-        to: '/theme/java',
+        to: '/theme/java/javapage14',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page15',     
-        to: '/theme/java',
+        to: '/theme/java/javapage15',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page16',     
-        to: '/theme/java',
+        to: '/theme/java/javapage16',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page17',     
-        to: '/theme/java',
+        to: '/theme/java/javapage17',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page18',     
-        to: '/theme/java',
+        to: '/theme/java/javapage18',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page19',     
-        to: '/theme/java',
+        to: '/theme/java/javapage19',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page20',     
-        to: '/theme/java',
+        to: '/theme/java/javapage20',
       }
     ]
   },
@@ -441,103 +441,103 @@ const _nav =  [
     _children: [
       {
         _tag: 'CSidebarNavItem',
-        name: 'Introduction',     //any name can here...
-        to: '/theme/php',
+        name: 'PhpIntroduction',     //any name can here...
+        to: '/theme/php/phpintroduction',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page2',     
-        to: '/theme/php',
+        to: '/theme/php/phppage2',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page3',     
-        to: '/theme/php',
+        to: '/theme/php/phppage3',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page4',     
-        to: '/theme/php',
+        to: '/theme/php/phppage4',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page5',     
-        to: '/theme/php',
+        to: '/theme/php/phppage5',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page6',     
-        to: '/theme/php',
+        to: '/theme/php/phppage6',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page7',     
-        to: '/theme/php',
+        to: '/theme/php/phppage7',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page8',     
-        to: '/theme/php',
+        to: '/theme/php/phppage8',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page9',     
-        to: '/theme/php',
+        to: '/theme/php/phppage9',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page10',     
-        to: '/theme/php',
+        to: '/theme/php/phppage10',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page11',     
-        to: '/theme/php',
+        to: '/theme/php/phppage11',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page12',     
-        to: '/theme/php',
+        to: '/theme/php/phppage12',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page13',     
-        to: '/theme/php',
+        to: '/theme/php/phppage13',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page14',     
-        to: '/theme/php',
+        to: '/theme/php/phppage14',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page15',     
-        to: '/theme/php',
+        to: '/theme/php/phppage15',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page16',     
-        to: '/theme/php',
+        to: '/theme/php/phppage16',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page17',     
-        to: '/theme/php',
+        to: '/theme/php/phppage17',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page18',     
-        to: '/theme/php',
+        to: '/theme/php/phppage18',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page19',     
-        to: '/theme/php',
+        to: '/theme/php/phppage19',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Page20',     
-        to: '/theme/php',
+        to: '/theme/php/phppage20',
       }
     ]
   },
